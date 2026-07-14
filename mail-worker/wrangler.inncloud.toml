@@ -6,14 +6,14 @@ keep_vars = true
 [observability]
 enabled = true
 
-[[d1_databases]]
-binding = "db"
-database_name = "inncloud-mail-db"
-database_id = "3fa812fa-4972-45c1-9632-2ef320610a07"
+#[[d1_databases]]
+#binding = "db"
+#database_name = "inncloud-mail-db"
+#database_id = "3fa812fa-4972-45c1-9632-2ef320610a07"
 
-[[kv_namespaces]]
-binding = "kv"
-id = "2e96ea6cc0d24b358bf3f4467676e7b8"
+#[[kv_namespaces]]
+#binding = "kv"
+#id = "2e96ea6cc0d24b358bf3f4467676e7b8"
 
 #[[r2_buckets]]
 #binding = "r2"
